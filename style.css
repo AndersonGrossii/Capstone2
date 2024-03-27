@@ -1,0 +1,99 @@
+html {
+    font-size: 1.5rem;
+}
+#cover {
+   color:blueviolet;
+   font-family: "Workbench", sans-serif;
+   background-color: #000000;
+   
+}
+
+.container {
+   width: 100%;
+    height: 100vh;
+   
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    
+}
+.clouds {
+height: 100px;
+
+}
+
+
+
+.text2 {
+    grid-area: 3 / 3 / 4/ 4 ;
+    text-align: center;
+}
+.one {
+    grid-area: 1/1/3/3; 
+    align-self:center;   
+    justify-self: center;
+}
+.two {
+    grid-area: 1/4/3/6;
+    align-self:center;   
+    justify-self: center;
+}
+.three {
+    grid-area: 4/1/6/3;
+    align-self:center;   
+    justify-self: center;
+}
+.four {
+    grid-area: 4/4/6/6;
+    align-self:center;   
+    justify-self: center;
+}
+
+
+#hero > .profile > .text3 > .fotoperfil {
+    height: 300px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+ .text3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+ }
+
+ .logo {
+    height: 50px;
+    vertical-align: middle; 
+    margin-right: 30px;
+ }
+.link {
+    color: chartreuse;
+}
+.fotolado {
+    height:200px;
+}
+
+.button {
+    width: 150px;
+    height: 150px;
+    border-style: dotted;
+    border-radius: 80%;
+}
+
+.insta {
+    background-color: purple;
+    color: darkorange;
+    font-size: xx-large;
+    font-family: "Oleo Script", system-ui;
+    margin-right: 30px;
+}
+.whats {
+    background-color: green;
+    color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    margin-left: 30px;
+}
